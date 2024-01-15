@@ -1,5 +1,7 @@
 # `next-pwa` 라이브러리와 함께하는 설정
 
+## 프로세스
+
 1. 라이브러리 설치
 
 ```sh
@@ -35,7 +37,9 @@ module.exports = withPWA(nextConfig);
 > - [PWA Manifest Generator](https://www.simicart.com/manifest-generator.html/)
 > - [PWA Icon Generator](https://tools.crawlink.com/tools/pwa-icon-generator/)
 
-- `app` 디렉토리 루트에 저장 `manifest.json` 파일 추가
+- 확장자를 `webmanifest` 로 설정했는지 확인
+- `app` 디렉토리 루트에 `manifest.webmanifest` 파일 추가
+- 메타데이터에 `themeColor` 속성 추가
 
 4. Splashscreen 추가
 
