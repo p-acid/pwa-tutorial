@@ -37,4 +37,6 @@ module.exports = withPWA(nextConfig);
 
 - `app` 디렉토리 루트에 저장 `manifest.json` 파일 추가
 
-4.
+4. Splashscreen 추가
+
+> - [iOS Splash Screen Generator](https://appsco.pe/developer/splash-screens)
